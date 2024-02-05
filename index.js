@@ -4,8 +4,8 @@ const express = require('express')
 const archiver = require('archiver')
 const app = express()
 const port = 8000
-const buildDir = 'build'
-const fteDir = 'fte'
+const buildDir = './build'
+const fteDir = '.'
 const pk3name = 'build.pk3'
 
 const argv = process.argv
